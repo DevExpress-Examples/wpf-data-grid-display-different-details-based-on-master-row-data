@@ -1,17 +1,9 @@
 ﻿using DevExpress.Mvvm.POCO;
-using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WpfApp30 {
     public class ViewModel {
-        public ObservableCollection<Task> Tasks {
-            get;
-            set;
-        }
+        public ObservableCollection<Task> Tasks { get; set; }
         public ViewModel() {
             InitTasks();
         }
@@ -43,41 +35,17 @@ namespace WpfApp30 {
         }
     }
     public class Task {
-        public int TaskID {
-            get;
-            set;
-        }
-        public string TaskName {
-            get;
-            set;
-        }
-        public virtual bool Succeed {
-            get;
-            set;
-        }
-        public ObservableCollection<Error> Errors {
-            get;
-            set;
-        }
-        public ObservableCollection<Action> CompletedActions {
-            get;
-            set;
-        }
+        public int TaskID { get; set; }
+        public string TaskName { get; set; }
+        public virtual bool Succeed { get; set; }
+        public ObservableCollection<Error> Errors { get; set; }
+        public ObservableCollection<Action> CompletedActions { get; set; }
     }
     public class Error {
-        public int ErrorCode {
-            get;
-            set;
-        }
-        public string ErrorDescription {
-            get;
-            set;
-        }
+        public int ErrorCode { get; set; }
+        public string ErrorDescription { get; set; }
     }
     public class Action {
-        public string ActionName {
-            get;
-            set;
-        }
+        public string ActionName { get; set; }
     }
 }
