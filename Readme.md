@@ -8,7 +8,7 @@
 
 This example displays different details for different master rows. Use the [DetailDescriptorSelector](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DetailDescriptorSelector) to display details based on the master row's content. Assign the default detail descriptor to the [DetailDescriptorSelector.DefaultValue](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DetailDescriptorSelector.DefaultValue) property and use [DetailDescriptorTriggers](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DetailDescriptorTrigger) to conditionally swith it to an another detail. This trigger has the [Binding](https://docs.devexpress.com/WPF/DevExpress.Xpf.DXBinding.DXTriggerBase.Binding) and [Value](https://docs.devexpress.com/WPF/DevExpress.Xpf.DXBinding.DXTriggerBase.Value) properties which work similarly to corresponding properties in a standard WPF [DataTrigger](https://learn.microsoft.com/en-us/dotnet/api/system.windows.datatrigger).
 
-![image](https://user-images.githubusercontent.com/65009440/208448985-e86f32c2-e289-4fcc-84a9-581293afa041.png)
+![image](https://user-images.githubusercontent.com/65009440/208456967-be612ce5-5aa0-4989-8b93-8c64d29fc85d.png)
 
 ## Files to Review
 
