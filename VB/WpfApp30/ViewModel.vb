@@ -1,10 +1,5 @@
 Imports DevExpress.Mvvm.POCO
-Imports System
-Imports System.Collections.Generic
 Imports System.Collections.ObjectModel
-Imports System.Linq
-Imports System.Text
-Imports System.Threading.Tasks
 
 Namespace WpfApp30
 

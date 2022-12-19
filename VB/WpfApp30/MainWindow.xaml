@@ -24,7 +24,7 @@
                             </dxg:GridControl>
                         </dxg:DataControlDetailDescriptor>
                     </dxg:DetailDescriptorSelector.DefaultValue>
-                    <dxg:DetailDescriptorTrigger Binding="{Binding Path=Succeed}" Value="False">
+                    <dxg:DetailDescriptorTrigger Binding="{Binding Succeed}" Value="False">
                         <dxg:DataControlDetailDescriptor ItemsSourcePath="Errors">
                             <dxg:GridControl AutoGenerateColumns="AddNew">
                                 <dxg:GridControl.View>
@@ -36,7 +36,7 @@
                 </dxg:DetailDescriptorSelector>
             </dxg:GridControl.DetailDescriptor>
             <dxg:GridControl.View>
-                <dxg:TableView Name="view"/>
+                <dxg:TableView AutoWidth="True" ShowGroupPanel="False"/>
             </dxg:GridControl.View>
         </dxg:GridControl>
     </Grid>
