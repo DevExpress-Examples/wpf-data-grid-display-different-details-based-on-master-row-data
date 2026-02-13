@@ -31,7 +31,7 @@ In this example, the [DetailDescriptorSelector](https://docs.devexpress.com/WPF/
 * [WPF Data Grid - Expand and Collapse Master Rows](https://github.com/DevExpress-Examples/expanding-and-collapsing-master-rows-e4044)
 * [WPF Data Grid - Specify Detail Buttons Visibility](https://github.com/DevExpress-Examples/detail-buttons-visibility-e4050)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-different-details-based-on-master-row-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-display-different-details-based-on-master-row-data&~~~was_helpful=no)
 
